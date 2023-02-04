@@ -1,0 +1,102 @@
+*,
+::after,
+:before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  background-image: url("./assets/rabire-1.png"), url("./assets/rabire-2.png"),
+    url("./assets/rabire-3.png");
+
+  animation: colorAnimation 20s linear infinite, imgMove 1000s linear infinite;
+}
+
+@keyframes imgMove {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  100% {
+    background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;
+  }
+}
+
+@keyframes colorAnimation {
+  0% {
+    background-color: #77dd77;
+  }
+  4% {
+    background-color: #89cff0;
+  }
+  8% {
+    background-color: #99c5c4;
+  }
+  12% {
+    background-color: #9adedb;
+  }
+  16% {
+    background-color: #aaf0d1;
+  }
+  20% {
+    background-color: #b2fba5;
+  }
+  24% {
+    background-color: #b39eb5;
+  }
+  28% {
+    background-color: #bee7a5;
+  }
+  32% {
+    background-color: #befd73;
+  }
+  36% {
+    background-color: #c1c6fc;
+  }
+  40% {
+    background-color: #c6a4a4;
+  }
+  44% {
+    background-color: #c8ffb0;
+  }
+  48% {
+    background-color: #cb99c9;
+  }
+  52% {
+    background-color: #cef0cc;
+  }
+  56% {
+    background-color: #cfcfc4;
+  }
+  60% {
+    background-color: #d6fffe;
+  }
+  64% {
+    background-color: #d8a1c4;
+  }
+  68% {
+    background-color: #dea5a4;
+  }
+  72% {
+    background-color: #deece1;
+  }
+  76% {
+    background-color: #dfd8e1;
+  }
+  80% {
+    background-color: #e5d9d3;
+  }
+  84% {
+    background-color: #e9d1bf;
+  }
+  88% {
+    background-color: #f49ac2;
+  }
+  92% {
+    background-color: #f4bfff;
+  }
+  96% {
+    background-color: #fdfd96;
+  }
+  100% {
+    background-color: #77dd77;
+  }
+}
