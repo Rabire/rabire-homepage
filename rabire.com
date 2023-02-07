@@ -1,6 +1,6 @@
 server {
-    listen 80;
-    server_name rabire.com;
+    listen 33;
+    server_name rabire.com www.rabire.com;
 
     root /home/ubuntu/projects/rabire-homepage;
     index index.html;
